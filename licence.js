@@ -1,4 +1,4 @@
-// V5 licence integration test. This is a client-side access gate, not DRM.
+// Customer release: E360 licence activation. Client-side access gate, not tamper-proof DRM.
 (()=>{'use strict';
 const API='https://elevor360d-access-manager.elevor360.workers.dev';
 const APP='moving-box-tracker';

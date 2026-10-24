@@ -1,20 +1,19 @@
-ELEVOR360D MOVING BOX TRACKER V4 — INSTALLATION & USER GUIDE
+Elevor360D Moving Box Tracker — V5.3 Customer Release
 
-INSTALL
-1. Extract this ZIP. Upload ALL files to the ROOT of your existing GitHub Pages repository, replacing V3 files.
-2. Settings > Pages > Deploy from branch > main > /(root). Keep the same URL.
-3. Open the HTTPS GitHub Pages URL on Chrome/Edge and choose Install app (or browser menu > Install app/Add to Home screen).
-4. For offline use, open the app online once so it can cache its files.
-
-UPDATING FROM V3
-Before updating, open V3 > Backup & help > Download JSON backup. V4 retains the original localStorage key, so existing boxes should appear in the same browser and site URL. If needed, restore the JSON backup. A CSV export is NOT a restorable backup.
-
-USING THE APP
-Dashboard: check progress, totals, and missing contents/location details.
-Boxes: add a box, write its number on the cardboard box with a marker pen, list its contents, optional quantities and photograph. Use Quick status to update its stage.
-Find items: search by item name. Find box number: type the handwritten number.
-Inventory: filter all boxes and export CSV. Checklist: track moving-day tasks.
-Backup & help: export JSON frequently and restore to another device.
+INSTALL / UPDATE
+1. Extract this ZIP. Upload all app files into the root of the existing GitHub Pages repository.
+2. Commit changes and wait for the GitHub Pages deployment to finish.
+3. Open the published app while online, then install it through Chrome if desired.
+4. Enter the E360 licence key received by email on first activation. The app saves the successful activation on that device.
+5. Once activated and cached, the installed app can reopen offline.
 
 IMPORTANT
-No QR codes, printing, accounts, server, or subscription. Records and photos stay in the browser's local storage; devices do not automatically sync. Clearing site data or uninstalling may remove records. Save backups elsewhere. Very large photo libraries may reach storage limits.
+- Keep the same GitHub Pages URL to preserve the existing browser storage on that device.
+- Back up box records with Backup & restore before updating, switching devices or clearing browser data.
+- Do not clear site data or local storage when updating.
+- Payhip and Cloudflare Worker settings do not need changing for this update.
+- Licence activation requires internet the first time. Offline access depends on a previously successful activation and cached app files.
+- This is a client-side licence gate, not tamper-proof DRM; public GitHub Pages source files remain accessible.
+
+FINAL CHECKS
+Test first activation, reopen without re-entering licence, offline reopen, and export/restore on a non-production test dataset before distributing broadly.

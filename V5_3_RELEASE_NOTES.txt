@@ -1,0 +1,7 @@
+V5.3 — Customer release candidate
+- Based on the user-tested V5.2 auto-opening and offline activation build.
+- Removed V5.1 Test heading and obsolete V4 help references.
+- Updated manifest app name and licence script cache-busting query.
+- Bumped service-worker cache name for a clean upgrade.
+- Removed outdated test setup notes and added customer deployment instructions.
+- No changes to the working E360 activation endpoints or Payhip/Cloudflare integration.
